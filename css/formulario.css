@@ -1,0 +1,114 @@
+@media screen and (min-width: 1023px) {
+       body {
+        font-family: Arial, sans-serif;
+        background: seashell;
+        margin: 16px;
+      }
+      form {
+        max-width: 720px;
+        margin: auto;
+        background: lightcyan;
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+      }
+      h1 {
+        font-size: 1.1rem;
+        margin: 0 0 12px;
+        color: deepskyblue;
+
+      }
+      .g {
+        margin: 8px 0;
+      }
+      label {
+        display: block;
+        margin-bottom: 4px;
+        color: deepskyblue;
+      }
+      input,
+      select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #cfcfd4;
+        border-radius: 4px;
+        font-size: 1.5rem;
+        color: darkgrey;
+      }
+      .acciones {
+        margin-top: 12px;
+      }
+      button {
+        padding: 9px 12px;
+        border: 1px solid #0b6bcb;
+        background: red;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+         font-size: 1.5rem;
+      }
+      button + button {
+        margin-left: 6px;
+        background: #eef3f9;
+        color: #0b6bcb;
+        border-color: #a7c7ef;
+
+      }
+}
+@media screen and (max-width: 1023px) {
+      body {
+        font-family: Arial, sans-serif;
+        background: lightcyan;
+        margin: 16px;
+      }
+      form {
+        max-width: 720px;
+        margin: auto;
+        background: blue;
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+      }
+      h1 {
+        font-size: 2.1rem;
+        margin: 0 0 12px;
+        color: whitesmoke;
+      }
+      .g {
+        margin: 8px 0;
+      }
+      label {
+        display: block;
+        margin-bottom: 4px;
+        color: skyblue;
+      }
+      input,
+      select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #cfcfd4;
+        border-radius: 4px;
+        font-size: 1.5rem;
+        color: deepskyblue;
+      }
+      .acciones {
+        margin-top: 12px;
+      }
+      button {
+        padding: 9px 12px;
+        border: 1px solid #0b6bcb;
+        background: yellow;
+        color: darkred;
+        font-size: 1.5rem;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button + button {
+        margin-left: 6px;
+        background: #eef3f9;
+        color: #0b6bcb;
+        border-color: #a7c7ef;
+      }
+}
+
+    
